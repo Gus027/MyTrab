@@ -2,6 +2,29 @@
   box-sizing: border-box;
 }
 
+@keyframes slide-in {
+  0% {
+    transform: translateY(-100%);
+    opacity: 0;
+    font-size: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+    font-size: 36px;
+  }
+}
+
+.word {
+  animation: slide-in 1s ease-out;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 120%;
+  font-family:"Lucida Console", "Courier New", monospace;
+  color: #7557ce;
+}
+
+
 body {
   font-family: Arial;
   padding: 10px;
@@ -50,7 +73,7 @@ body {
 }
 /* Fake image */
 .fakeimg {
-  background-color: #aaa;
+  background-color: white;
   width: 100%;
   padding: 20px;
 }
@@ -58,7 +81,7 @@ body {
 .card {
   background-color: white;
   padding: 20px;
-  margin-top: 20px;
+  margin-top: 10px;
 }
 /* Limpar floats após as colunas */
 .row:after {
@@ -93,4 +116,91 @@ body {
 }
 .borda { 
   border-radius: 50%;
+}
+
+.ez-toc-title {
+  animation: slide-in 1s ease-out;
+  font-weight: 800;
+  font-size: 44px;
+  line-height: 120%;
+  color: #2F1C6A;
+  padding-bottom: 30px;
+}
+
+.ez-toc-destaque {
+  font-weight: 790;
+  font-size: 38px;
+  line-height: 120%;
+  color: #2F1C6A;
+  padding-bottom: 30px;
+}
+
+.ez-min-title {
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 120%;
+  font-family:"Lucida Console", "Courier New", monospace;
+  color: #7557ce;
+}
+
+.ez-min-desc {
+  font-weight: 600;
+  font-size: 20px;
+  font-family:"Lucida Console", "Courier New", monospace;
+  line-height: 120%;
+  color: #7557ce;
+  margin-right: 50px;
+  padding-bottom: 30px;
+}
+
+.ez-min-inf {
+  font-weight: 550;
+  font-size: 20px;
+  font-family:"Lucida Console", "Courier New", monospace;
+  line-height: 120%;
+  color: #000000;
+
+}
+
+
+.ez-min-contat {
+  font-weight: 620;
+  font-size: 15px;
+  line-height: 120%;
+  color: #000000;
+
+}
+
+.ez-min-inf-ord {
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 5%;
+  color: #000000;
+  padding-bottom: 30px;
+}
+
+
+h1, h2{
+  font-size: 10px;
+  font-family: 'Muli',sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #2F1C6A;
+}
+
+.containerLado {
+  display: flex;
+}
+
+.ContainerText {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.elemento {
+  margin-bottom: 50px;
+  font-size: 100;
+}
+.p3 {
+  font-family: "Lucida Console", "Courier New", monospace;
 }
