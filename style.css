@@ -143,6 +143,14 @@ body {
   color: #7557ce;
 }
 
+.ez-min-title-exp {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 120%;
+  font-family:"Lucida Console", "Courier New", monospace;
+  color: #602f67;
+}
+
 .ez-min-desc {
   font-weight: 600;
   font-size: 20px;
