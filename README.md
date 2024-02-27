@@ -1,2 +1,2 @@
 # HTML-CSS-PORTIFOLIO
-Construção de Software para Web - UVV
+Tudo sobre minha carreira na área da tecnologia, no meu portifolio como programador. =D
